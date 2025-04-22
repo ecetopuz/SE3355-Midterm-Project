@@ -1,0 +1,173 @@
+/* General Settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    
+  }
+  
+  /* Navbar */
+  .navbar {
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+  }
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .nav-item .dropdown-menu {
+    border-radius: 0;
+  }
+  .quick-links-wrapper {
+    padding: 0 15px;
+  }
+  
+  #quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .quick-link-card {
+    width: 100%;
+    max-width: 140px;
+    height: 140px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .quick-link-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .quick-link-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  
+  }
+  
+  .quick-link-title,
+  .quick-link-subtitle {
+    z-index: 1;
+    padding: 0 5px;
+  }
+  
+  .quick-link-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .quick-link-subtitle {
+    font-size: 13px;
+  }
+
+/* Card content */
+.product-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  color: gold;
+  margin-right: 2px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+.product-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Electronic slider card */
+#elektronikSlider .carousel-item .card {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#elektronikSlider .card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  
+}
+
+#elektronikSlider .card-body {
+  text-align: center;
+}
+
+#elektronikSlider .card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#elektronikSlider .card-text {
+  font-size: 1.2rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+
+#mainSlider, #elektronikSlider {
+  height: 100%;
+}
+
+
+.carousel-inner {
+  height: 100%;
+}
